@@ -11,7 +11,7 @@ app = Flask(__name__)
 api = Api(app)
 
 # carregar modelo
-model = load('01 - Aulas/Módulo 7 - Deploy de Aplicação Machine Learning/modulo_deploy/model/model.joblib')
+model = load('model/model.joblib')
 
 
 class PrecoImoveis(Resource):
